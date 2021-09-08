@@ -19,6 +19,16 @@ const getMenuFrontEnd = (role = "USER_ROLE") => {
         // { titulo: 'Usuarios', url: 'usuarios' },
         { titulo: "Clinicas", url: "clinicas" },
         { titulo: "Médicos", url: "medicos" },
+        { titulo: "Productos", url: "productos" },
+        { titulo: "Marcas", url: "marcas" },
+      ],
+    },
+    {
+      titulo: "Monitoreo",
+      icono: "mdi mdi-gauge",
+      submenu: [
+        // { titulo: 'Usuarios', url: 'usuarios' },
+        { titulo: "Dashboard", url: "/" },
       ],
     },
   ];
